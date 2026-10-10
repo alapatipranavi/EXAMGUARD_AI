@@ -1,0 +1,8 @@
+**/node_modules
+**/.next
+**/out
+**/build
+.git
+*.log
+docker_data
+postgres_data

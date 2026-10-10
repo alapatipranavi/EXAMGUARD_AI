@@ -1,0 +1,8 @@
+node_modules
+.next
+.next_build
+out
+build
+.git
+.gitignore
+*.log

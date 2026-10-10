@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.venv/
+venv/
+ENV/
+env/
+
+# Next.js build outputs
+frontend/.next/
+frontend/.next_build/
+frontend/out/
+frontend/build/
+frontend/dist/
+
+# Python cache & build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment files (NEVER COMMIT SECRETS)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env
+frontend/.env.local
+backend/.env
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker / Logs
+*.log
+docker_data/
+postgres_data/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+backend/uploads/
+
+frontend/tsconfig.tsbuildinfo
